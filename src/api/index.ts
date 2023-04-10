@@ -2,7 +2,7 @@ import axios from 'axios'
 import { AuthResponse, ExternalChatResponse, ExternalUserResponse, TicketRes, UserResponse } from '@/api/types'
 
 // 后端地址
-const baseURL = 'https://backend.com'
+const baseURL = 'http://backend.niubishanshan.top'
 
 // 创建 axios 实例
 const api = axios.create({
